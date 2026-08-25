@@ -1,44 +1,41 @@
-# 🌤 Weather App
+# 🌤️ Weather App
 
-A lightweight, responsive web application that displays current weather conditions for any city worldwide. Built with vanilla HTML, CSS, and JavaScript, utilizing the OpenWeatherMap API.
+> A clean, responsive, and interactive web application that provides real-time weather forecasts for any city across the globe.
+
+---
+
+## 🌟 Live Demo
+
+Check out the live application here:  
+👉 **[View Weather App Live](https://spandan2106.github.io/Weather-website/)**
+
+---
 
 ## ✨ Features
 
-- **City Search**: Instantly look up weather by city name.
-- **Live Data**: Displays current temperature (°C), weather description, and dynamic icons.
-- **Responsive UI**: Modern, card-based interface that adapts to mobile and desktop screens.
-- **User Feedback**: Handles errors gracefully (e.g., city not found) and supports "Enter" key submission.
+* 🔍 **Instant City Search** — Get real-time weather updates by typing any city name.
+* 🌡️ **Live Weather Data** — Displays current temperature (°C), weather conditions, and dynamic status icons.
+* 📱 **Fully Responsive** — Sleek card-based UI optimized for desktop, tablet, and mobile devices.
+* ⚡ **Seamless UX** — Press `Enter` to search instantly with built-in error handling for invalid cities.
 
-## 🛠️ Technologies
+---
 
-- **Frontend**: HTML5, CSS3
-- **Scripting**: JavaScript (ES6+)
-- **API**: [OpenWeatherMap Current Weather Data](https://openweathermap.org/current)
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+| :--- | :--- |
+| **HTML5** | Semantic structure |
+| **CSS3** | Modern styling and responsive design |
+| **JavaScript (ES6+)** | Dynamic API integration and DOM updates |
+| **OpenWeatherMap API** | Live global weather data |
+
+---
 
 ## 🚀 Getting Started
 
-1. **Download**: Clone this repository or download the `index.html` file.
-2. **Run**: Simply open `index.html` in any modern web browser (Chrome, Firefox, Edge, Safari).
-3. **Use**: Type a city name (e.g., "London", "Tokyo") and press Enter.
+Follow these simple steps to run the project locally on your machine:
 
-## 🔑 API Configuration
-
-The file comes with a demo API key. For consistent usage or to avoid rate limits, it is recommended to use your own key:
-
-1. Register for a free account at OpenWeatherMap.
-2. Generate an API Key.
-3. Open `index.html` in a code editor.
-4. Replace the value of `const API_KEY` inside the script tag:
-   ```javascript
-   // Replace with your own OpenWeatherMap API key
-   const API_KEY = "YOUR_NEW_API_KEY";
-   ```
-
-## 📸 Usage Example
-
-1. Enter "New York" in the input field.
-2. Click "Get Weather".
-3. View the temperature and weather conditions instantly.
-
----
-*Created for educational purposes.*
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Spandan2106/Weather-website.git](https://github.com/Spandan2106/Weather-website.git)
+cd Weather-website
